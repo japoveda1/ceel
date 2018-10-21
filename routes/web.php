@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//Vistas Modulo Servicios
 Route::get('/servicios', 'Servicios\ServiciosController@servicios')->name('servicios');
+Route::get('/servicios/serviciosList', 'Servicios\ServiciosListController@serviciosList')->name('serviciosList');

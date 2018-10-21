@@ -19,10 +19,12 @@
     <div class="row">
             
                 <div class="col-md-6 center-icon">
-                  <i class="fa fa-comments fa-5x" ></i>
-                   <div>
-                       <label>Parametros</label>
-                   </div>
+                    <a href="{{ route('serviciosList') }}">
+                        <i class="fa fa-comments fa-5x" ></i>
+                        <div>
+                           <label>Parametros</label>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-6 center-icon">
                    <i class="fa fa-file fa-5x"></i>
