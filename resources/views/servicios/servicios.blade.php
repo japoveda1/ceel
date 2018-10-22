@@ -19,7 +19,7 @@
     <div class="row">
             
                 <div class="col-md-6 center-icon">
-                    <a href="{{ route('serviciosList') }}">
+                    <a href="{{ route('serviciosListar') }}">
                         <i class="fa fa-comments fa-5x" ></i>
                         <div>
                            <label>Parametros</label>
@@ -32,7 +32,6 @@
                        <label>Informes</label>
                    </div>
                 </div>
-
-            
+    </div>
 </div>
 @endsection

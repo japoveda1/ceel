@@ -20,5 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Vistas Modulo Servicios
-Route::get('/servicios', 'Servicios\ServiciosController@servicios')->name('servicios');
-Route::get('/servicios/serviciosList', 'Servicios\ServiciosListController@serviciosList')->name('serviciosList');
+Route::get('/home/servicios', 'Servicios\ServiciosController@show')->name('servicios');
+Route::get('/home/servicios/listar', 'Servicios\ServiciosListarController@show')->name('serviciosListar');
+Route::get('/home/servicios/crearEditar/{id}', 'Servicios\ServiciosCrearEditarController@show')->name('serviciosCrearEditar');
