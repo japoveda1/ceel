@@ -17,7 +17,7 @@
                     Tu estas logueado correctamente!
                     <ul>
                         <li>
-                           <a href="{{ route('servicios') }}">Servicios</a> 
+                           <a href="{{ route('servicios') }}">Modulo de Servicios</a> 
                         </li>
                     </ul>
                 </div>
